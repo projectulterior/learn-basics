@@ -1,18 +1,15 @@
-# learn-git
-[Git](https://git-scm.com/) is "a free and open source distributed version control system".
+## Learn Basics
+This repository contains quick tutorials on various technologies used in developing a project. It is recommended to read them all completely without spending too much time on advanced topics such that you can refer back to them once needed.
 
-This means that it is:
-1. *free*: does not cost money to use
-2. *open source*: source code accessible & developed by the public
-3. *distributed*: hosted by mulitple machines
-4. *version control system*: a system to manage different versions of a single repositories
+1. [Unix Commands](https://github.com/projectulterior/learn-basics/blob/master/unix.md)
+    - Unix commands are important to know not only to **flex** but to save time and develop *faster* 
 
-Therefore, `git` keeps a record of all changes made to a project such that you can always refer back to a specific version when needed. The *distributed* aspect of `git` allows for multiple contributors to work at the same time.
+2. [git](https://github.com/projectulterior/learn-basics/blob/master/git.md)
+    - `git` is a tool to help developers maintain a history of all changes made in a project
+    - It is used in basically every project ranging from quick coding assignments to massive codebases in corporate giants and is a must for any project with multiple contributors.
 
-## Using Git
-1. Download [git](https://git-scm.com/downloads)
-    - macOS: might be already downloaded
-    - windows: be sure to check the "include GitBash" box as you click thru the installer
+3. [Markdown](https://github.com/projectulterior/learn-basics/blob/master/markdown.md) 
+    - Markdown allows you to document your work and make quick guides for contributors and users
 
-2. Open terminal/gitbash
-    - masOS: press cmd+space then type `terminal` 
+4. [VSCode](https://github.com/projectulterior/learn-basics/blob/master/vscode.md)
+    - VSCode is a very popular *integrated development environment* (IDE). IDEs allow developers to write code faster with few mistakes.
