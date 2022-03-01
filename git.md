@@ -28,6 +28,41 @@ Therefore, `git` keeps a record of all changes made to a project such that you c
     - This outputs the current status of the git repository.
 
 ### Adding A New Commit
+1. Make changes to the repository
+    - Ex. Create a new file by running `echo "Hello World" >> README.md`
+
+2. Run `git status`
+    - Notice that `README.md` is now tagged as `modified`
+    ```bash
+    $ git status
+    On branch master
+
+    Changes not staged for commit:
+    (use "git add <file>..." to update what will be committed)
+    (use "git restore <file>..." to discard changes in working directory)
+            modified:   README.md
+
+    no changes added to commit (use "git add" and/or "git commit -a")
+    ```
+
+3. Run `git add READMD.md`
+    - Notice that `README.md` is now `staged` to be committed (not yet committed)
+    ```bash
+    $ git status
+    On branch master
+
+    Changes to be committed:
+    (use "git restore --staged <file>..." to unstage)
+            modified:   README.md
+    ```
+
+4. Run `git commit -m "my first commit"`
+    - "my first commit" can be replaced with any message
+    - This should return a summary of changes made
+
+5. Run `git log`
+    
+
 
 ### Checking Out A Past Commit
 
@@ -38,3 +73,7 @@ Therefore, `git` keeps a record of all changes made to a project such that you c
 ### Cloning A Repository
 
 ### Pushing/Pulling
+
+### Typical Workflow
+
+### Resources
