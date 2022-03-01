@@ -33,28 +33,30 @@ Therefore, `git` keeps a record of all changes made to a project such that you c
 
 2. Run `git status`
     - Notice that `README.md` is now tagged as `modified`
-    ```bash
-    $ git status
-    On branch master
 
-    Changes not staged for commit:
-    (use "git add <file>..." to update what will be committed)
-    (use "git restore <file>..." to discard changes in working directory)
-            modified:   README.md
+        ```bash
+        $ git status
+        On branch master
 
-    no changes added to commit (use "git add" and/or "git commit -a")
-    ```
+        Changes not staged for commit:
+        (use "git add <file>..." to update what will be committed)
+        (use "git restore <file>..." to discard changes in working directory)
+                modified:   README.md
+
+        no changes added to commit (use "git add" and/or "git commit -a")
+        ```
 
 3. Run `git add READMD.md`
     - Notice that `README.md` is now `staged` to be committed (not yet committed)
-    ```bash
-    $ git status
-    On branch master
+    
+        ```bash
+        $ git status
+        On branch master
 
-    Changes to be committed:
-    (use "git restore --staged <file>..." to unstage)
-            modified:   README.md
-    ```
+        Changes to be committed:
+        (use "git restore --staged <file>..." to unstage)
+                modified:   README.md
+        ```
 
 4. Run `git commit -m "my first commit"`
     - "my first commit" can be replaced with any message
